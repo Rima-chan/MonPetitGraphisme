@@ -59,3 +59,52 @@ h1 {
     color: white;
     font-size:35px
 }
+
+/* PRESENTATION */
+
+
+#claimer {
+    font-size: 20px;
+    margin-left:200px;
+    margin-right:200px;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#services {
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 70px;
+}
+
+.options {
+    flex: 1;
+    padding-right: 25px;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    padding-bottom:8px;
+}
+
+.options_description {
+    font-size: 15px;
+}
+
+#testimony {
+    font-size: 18px;
+    margin-left:250px;
+    margin-right:250px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#name {
+    font-size: 15px;
+    font-weight: 300;
+}
