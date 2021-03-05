@@ -1,10 +1,61 @@
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-header {
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* HEADER */
+
+header div {
     height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: aqua;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+}
+
+/* MAIN IMAGE */
+
+#main_image {
+    height: 550px;
+    width: 1200px;
+    background: url('pictures/backgroung_image.jpg') center no-repeat;
+    padding-top: 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#main_logo {
+    height: 80px;
+    width: 250px;
+}
+
+h1 {
+    color: white;
+    font-size:35px
 }
