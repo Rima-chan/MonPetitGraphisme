@@ -34,6 +34,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
     text-decoration: none;
+    color:black;
 }
 
 /* MAIN IMAGE */
@@ -78,7 +79,7 @@ h1 {
     justify-content: center;
     margin-left: 200px;
     margin-right: 200px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 .options {
@@ -104,7 +105,53 @@ h2 {
     font-weight: 700;
 }
 
-#name {
+#restaurant_name {
     font-size: 15px;
     font-weight: 300;
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #5b3592;
+    font-weight: 800px;
+}
+
+#name {
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+#footer_logos {
+    text-align: center;
+}
+
+#footer_logos i {
+    padding-right: 30px;
+    height: 20px;
+}
+
+#navigate_links {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+h3 {
+    color: #bdaed8;
+    font-size: 16px;
+}
+
+#navigate_links a {
+    text-decoration: none;
+    color: white;
+}
+
+#navigate_links a:hover {
+    text-decoration: none;
+    color: white;
 }
