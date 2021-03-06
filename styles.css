@@ -1,0 +1,159 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    width: 1150px;
+    margin: 0 auto;
+}
+/* HEADER */
+
+header div {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color:black;
+}
+
+/* MAIN IMAGE */
+
+#main_image {
+    height: 400px;
+    width: 1150px;
+    background: url('pictures/backgroung_image.jpg') center no-repeat;
+    padding-top: 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#main_logo {
+    height: 80px;
+    width: 250px;
+}
+
+h1 {
+    color: white;
+    font-size:35px
+}
+
+/* PRESENTATION */
+
+
+#claimer {
+    font-size: 20px;
+    margin-left:200px;
+    margin-right:200px;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#services {
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+
+.options {
+    flex: 1;
+    padding-right: 25px;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    padding-bottom:8px;
+}
+
+.options_description {
+    font-size: 15px;
+}
+
+#testimony {
+    font-size: 18px;
+    margin-left:250px;
+    margin-right:250px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#restaurant_name {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #5b3592;
+    width: 1150px;
+    font-weight: 800px;
+    margin: auto;
+}
+
+#name {
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+#footer_logos {
+    text-align: center;
+}
+
+#footer_logos i {
+    padding-right: 50px;
+    height: 20px;
+}
+
+#navigate_links {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+h3 {
+    color: #bdaed8;
+    font-size: 16px;
+}
+
+#navigate_links a {
+    text-decoration: none;
+    color: white;
+}
+
+#navigate_links a:hover {
+    text-decoration: none;
+    color: white;
+}
