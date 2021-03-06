@@ -4,7 +4,7 @@ body {
 }
 
 .wrapper {
-    width: 1200px;
+    width: 1150px;
     margin: 0 auto;
 }
 /* HEADER */
@@ -40,8 +40,8 @@ header nav ul li a:hover {
 /* MAIN IMAGE */
 
 #main_image {
-    height: 550px;
-    width: 1200px;
+    height: 400px;
+    width: 1150px;
     background: url('pictures/backgroung_image.jpg') center no-repeat;
     padding-top: 0;
     display: flex;
@@ -115,15 +115,17 @@ h2 {
 
 footer {
     background-color: #5b3592;
+    width: 1150px;
     font-weight: 800px;
+    margin: auto;
 }
 
 #name {
     text-align: center;
     font-weight: 800;
     color: white;
-    font-size: 15px;
-    padding-top: 20px;
+    font-size: 12px;
+    padding-top: 15px;
 }
 
 #footer_logos {
@@ -131,13 +133,13 @@ footer {
 }
 
 #footer_logos i {
-    padding-right: 30px;
+    padding-right: 50px;
     height: 20px;
 }
 
 #navigate_links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color: white;
 }
 
